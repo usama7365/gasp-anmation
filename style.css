@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+  }
+  
+  .particle-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .particle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ffcc00; /* Yellow */
+  }
+  
